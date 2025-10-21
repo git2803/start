@@ -1,0 +1,592 @@
+body{
+	background: black;
+	color: white;
+
+}
+
+#headline{
+	color:#e372e6; font-size: 45px;
+}
+
+p{
+	color: #92949b;
+}
+header{
+	background: #121828;
+	width: 100%;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#Our-Mission{
+	background: black;
+	color: white;
+	
+	margin-left: 5%;
+    top: 60px;
+}
+#Mission{
+	background: #121828;
+	width: 90%;
+	border-radius: 10px;
+margin-top: 60px;
+padding: 10px;
+}
+#course{
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+}
+
+#course button{
+	background: #232d44;
+	color: white;
+	align: center;
+}
+#course button img{
+	width: 20px;
+	height: auto;
+	border-radius: 5px;
+	align: center;
+}
+
+
+
+
+
+
+
+
+.impact {
+
+    padding: 80px 0;
+
+}
+
+.impact h2 {
+
+    color: #b57af5;
+
+    font-size: 2em;
+
+    margin-bottom: 10px;
+
+}
+
+.impact p {
+
+    color: #d3d3e0;
+
+    font-size: 1.1em;
+
+}
+
+.impact-box {
+
+    background-color: #2b1a3f;
+
+    display: inline-block;
+
+    padding: 40px 80px;
+
+    border-radius: 12px;
+
+    margin-top: 30px;
+
+}
+
+.impact-box h1 {
+
+    color: #ff75d8;
+
+    font-size: 3em;
+
+    margin: 0;
+
+}
+
+.impact-box p {
+
+    color: #ddd;
+
+    margin-top: 5px;
+
+}
+
+/* Leadership Section */
+
+.leadership {
+
+    padding: 80px 0;
+
+}
+
+.leadership h2 {
+
+    color: #b57af5;
+
+    font-size: 1.8em;
+
+    margin-bottom: 50px;
+
+}
+
+.leaders {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+
+}
+
+.leader {
+
+    background-color: #1a132b;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    width: 320px;
+
+    text-align: left;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.leader h3 {
+
+    font-size: 0.9em;
+
+    color: #ff75d8;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+}
+
+.leader h2 {color: #ffffff;
+
+    margin: 10px 0;
+
+    font-size: 1.3em;
+
+}
+
+.title {
+
+    color: #b3b3c6;
+
+    font-size: 0.95em;
+
+}
+
+.desc {
+
+    color: #cfcfe3;
+
+    font-size: 0.9em;
+
+    margin-top: 10px;
+
+}
+.hero-container {
+
+    text-align: center;
+
+    margin: 60px auto;
+
+}
+
+.hero-container .container {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+
+.team-box {
+
+    background-color: #1a1c33;
+
+    width: 160px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+
+}
+
+.team-box{
+
+    background-color: #2c2f5b;
+
+}
+
+.team-name {
+
+    font-weight: 600;
+
+    margin: 0;
+
+}.team-role {
+
+    color: #a9a9a9;
+
+    font-size: 14px;
+
+    margin-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#Join{
+	background: #121828;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-bottom: 200px;
+}
+#contact{
+	background: #323a4f;
+	width: 90%;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 80px;
+
+}
+#contact input{
+	background: #070c16;
+	border: 1px solid #131928;
+	color: white;
+	align-items: start;
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 900px){
+body{
+	background: black;
+	color: white;
+
+}
+
+#headline{
+	color:#e372e6; font-size: 30px;
+}
+
+p{
+	color: #92949b;
+}
+header{
+	background: #121828;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#Our-Mission{
+	background: black;
+	color: white;
+	
+	margin-left: 5%;
+    top: 60px;
+}
+#Mission{
+	background: #121828;
+	width: 90%;
+	border-radius: 10px;
+margin-top: 60px;
+padding: 10px;
+}
+#course{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 25px;
+	justify-content: center;
+}
+
+#course button{
+	background: #232d44;
+	color: white;
+	align: center;
+}
+#course button img{
+	width: 20px;
+	height: auto;
+	border-radius: 5px;
+	align: center;
+}
+
+
+
+
+
+
+
+
+.impact {
+
+    padding: 80px 0;
+
+}
+
+.impact h2 {
+
+    color: #b57af5;
+
+    font-size: 2em;
+
+    margin-bottom: 10px;
+
+}
+
+.impact p {
+
+    color: #d3d3e0;
+
+    font-size: 1.1em;
+
+}
+
+.impact-box {
+
+    background-color: #2b1a3f;
+
+    display: inline-block;
+
+    padding: 40px 80px;
+
+    border-radius: 12px;
+
+    margin-top: 30px;
+
+}
+
+.impact-box h1 {
+
+    color: #ff75d8;
+
+    font-size: 3em;
+
+    margin: 0;
+
+}
+
+.impact-box p {
+
+    color: #ddd;
+
+    margin-top: 5px;
+
+}
+
+/* Leadership Section */
+
+.leadership {
+
+    padding: 80px 0;
+
+}
+
+.leadership h2 {
+
+    color: #b57af5;
+
+    font-size: 1.8em;
+
+    margin-bottom: 50px;
+
+}
+
+.leaders {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+
+}
+
+.leader {
+
+    background-color: #1a132b;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    width: 320px;
+
+    text-align: left;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.leader h3 {
+
+    font-size: 0.9em;
+
+    color: #ff75d8;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+}
+
+.leader h2 {color: #ffffff;
+
+    margin: 10px 0;
+
+    font-size: 1.3em;
+
+}
+
+.title {
+
+    color: #b3b3c6;
+
+    font-size: 0.95em;
+
+}
+
+.desc {
+
+    color: #cfcfe3;
+
+    font-size: 0.9em;
+
+    margin-top: 10px;
+
+}
+.hero-container {
+
+    text-align: center;
+
+    margin: 60px auto;
+
+}
+
+.hero-container .container {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+
+.team-box {
+
+    background-color: #1a1c33;
+
+    width: 160px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+
+}
+
+.team-box{
+
+    background-color: #2c2f5b;
+
+}
+
+.team-name {
+
+    font-weight: 600;
+
+    margin: 0;
+
+}.team-role {
+
+    color: #a9a9a9;
+
+    font-size: 14px;
+
+    margin-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#Join{
+	background: #121828;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-bottom: 200px;
+}
+#contact{
+	background: #323a4f;
+	width: 90%;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 80px;
+
+}
+#contact input{
+	background: #070c16;
+	border: 1px solid #131928;
+	color: white;
+	align-items: start;
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+}
+}
